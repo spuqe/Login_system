@@ -1,6 +1,6 @@
 # Login_system
-Super secure login system using SQLFILL
-Find SQLFILL at: https://github.com/UnrealSecurity/SQLFill
+Example of super secure login system using SQLFILL
+Find SQLFILL documentation at: https://github.com/UnrealSecurity/SQLFill
 
 How to use? 
 1. Change APP_SECRET from config.php
