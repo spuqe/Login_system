@@ -7,7 +7,7 @@
 
 <?php
 
-    require_once $_SERVER['DOCUMENT_ROOT'].'/Config/adminconf.php';
+    require_once $_SERVER['DOCUMENT_ROOT'].'/Config/config.php';
 
     if (isset($_POST["formLogin"])) {
         $username = $_POST['username'];
