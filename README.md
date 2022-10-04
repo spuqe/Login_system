@@ -7,4 +7,4 @@ How to use?
 2. Add your server IP, name, password etc
 3. Create SQL table
 4. Add tables which in this case are ```username, email, passwd, salt, rip``` 
-if errors occur add ```username, email, passwd, hash, salt, rip``` 
+
