@@ -46,7 +46,8 @@ Example 2:
         ['FirstName', 'LastName'], 'Customers', 'FI')->query(); /* --> SQLFillResult */
 
 ?>
-``` examples from https://github.com/UnrealSecurity/
+```
+examples from https://github.com/UnrealSecurity/
 SQL query: ```sql
 SELECT FirstName, LastName FROM Customers WHERE Country = 'FI'
 ```
