@@ -13,11 +13,12 @@ See also https://github.com/UnrealSecurity/luxon-framework
 4. Add tables which in this case are ```username, email, passwd, salt, rip```
 
 # Code examples for SQLFILL
-Example 1:
+## Example 1
+Code:
 ```php
 <?php
 
-    require_once 'sqlfill/sqlfill.php';
+    require_once 'sqlfill/php/sqlfill.php';
     $sql = new SQLFill($host, $user, $pass, $dbname, $port = 3306);
 
     $table  = 'Customers';
@@ -31,11 +32,13 @@ Example 1:
 
 ?>
 ```
-SQL query: ```sql
+SQL query:
+```sql
 INSERT INTO Customers (CustomerName,ContactName,Address,City,PostalCode,Country) VALUES ('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway'),('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway')
 ```
 
-Example 2:
+## Example 2
+Code:
 ```php
 <?php
 
@@ -47,7 +50,7 @@ Example 2:
 
 ?>
 ```
-examples from https://github.com/UnrealSecurity/
-SQL query: ```sql
+SQL query:
+```sql
 SELECT FirstName, LastName FROM Customers WHERE Country = 'FI'
 ```
