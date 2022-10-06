@@ -10,7 +10,7 @@ See also https://github.com/UnrealSecurity/luxon-framework
 1. Change APP_SECRET from config.php
 2. Add your server IP, name, password etc
 3. Create SQL table
-4. Add tables which in this case are ```username, email, passwd, salt, rip
+4. Add tables which in this case are ```username, email, passwd, salt, rip```
 
 # Code examples for SQLFILL
 Example 1:
