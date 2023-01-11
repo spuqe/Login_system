@@ -15,10 +15,10 @@ See also https://github.com/UnrealSecurity/luxon-framework
 ```sql
 CREATE TABLE users (
     username varchar(255),
-    email varchar(255),
-    passwd varchar(255),
-    salt varchar(255),
-    rip varchar(255)
+    email varchar(255), --Users email address
+    passwd varchar(255), --Password
+    salt varchar(255), --Password salt
+    rip varchar(255) --registeration IP
 );
 ```
 
