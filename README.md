@@ -12,7 +12,7 @@ See also https://github.com/UnrealSecurity/luxon-framework
 3. Create SQL table
 4. Create table users, add columns which in this case are ```username, email, passwd, salt, rip```
 
-```
+```sql
 CREATE TABLE users (
     username varchar(255),
     email varchar(255),
